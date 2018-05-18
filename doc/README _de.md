@@ -2,7 +2,7 @@
 
 ## Winkelkodierer
 Der Winkelkodierer ist ein Gerät welches Rotationen erkennt und über zwei Signale kodiert ausgibt.
-![Bild eines Winkelkodierers](doc/IMG_20160727_105834.jpg)
+![Bild eines Winkelkodierers](dIMG_20160727_105834.jpg)
 Der Winkelkodierer hat vier Kabelenden die wie folgt belegt sind:
 
 | Kabelfarbe | Belegung |
@@ -14,7 +14,7 @@ Der Winkelkodierer hat vier Kabelenden die wie folgt belegt sind:
 
 Die Erfassung der Rotationsrichtung erfolgt durch eine sich mitrotierende Scheibe im Inneren, sowie zwei Sensoren welche Helligkeitsunterschiede feststellen können. Die Scheibe besitzt, wie in der Grafik sichtbar, Speichen die abwechselnd Hell bzw. Dunkel sind. Diese Speichen werden von den beiden Sensoren erfasst und ein entsprechendes binäres Signal (z.B. 1 dunkel, 0 hell) wird je Sensor über das gelbe bzw. grüne Kabelende ausgegeben.
 
-![Funktionsweise Kodierer](doc/kodierer.svg)
+![Funktionsweise Kodierer](kodierer.svg)
 
 Dreht sich die Scheibe ändern sich folglich auch die Speichen unterhalb der Sensoren. Damit kann festgestellt werden ob eine Rotation stattfindet. Zur Bestimmung der Rotationsrichtung muss festgehalten werden welche Zustände hiermit möglich sind. Es kann entweder Sensor A oder Sensor B ein helles Feld (0) bzw. ein dunkles Feld (1) erfassen. Außerdem sind die Sensoren so angeordnet, dass auch beide das selbe Feld erfassen können. Hieraus ergeben sich folgende Möglichkeiten:
 

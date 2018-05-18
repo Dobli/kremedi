@@ -31,13 +31,13 @@ Durch Messen lässt sich feststellen das eine vollständige Umdrehung (360°) 20
 
 ## Android App
 
-![launcher](/home/alexanderdobler/tmp/kremedi/doc/launcher.png)
+![launcher](launcher.png)
 
 Die Android App verfügt über eine einfache Benutzeroberfläche, die nur die Drehung in Grad (oder alternativ in Gon, abhängig von einem Schalter oben) sowie in Bogenmaß anzeigt, der dritte Wert zeigt die erkannten Drehschritte. Unten befindet sich ein Knopf, um den aktuellen Zustand auf 0 Grad zurückzusetzen.
 
-|                  Phone                   |                  Tablet                  |
-| :--------------------------------------: | :--------------------------------------: |
-| ![phone](/home/alexanderdobler/tmp/kremedi/doc/phone.png) | ![tablet](/home/alexanderdobler/tmp/kremedi/doc/tablet.png) |
+|        Phone        |        Tablet         |
+| :-----------------: | :-------------------: |
+| ![phone](phone.png) | ![tablet](tablet.png) |
 
 Die App wird über eine serielle Verbindung über USB mit einem Arduino verbunden. Dazu gibt es oben eine Schaltfläche "Verbindung aufbauen".
 

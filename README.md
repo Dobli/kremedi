@@ -1,6 +1,6 @@
 # Arduino Angle Encoder with Android UI
 
-##Angle encoder
+## Angle encoder
 
 The angle encoder is a device which detects rotation movement and outputs it encoded with two signals.
 
@@ -33,13 +33,13 @@ By measuring it can be determined that one complete rotation (360°) corresponds
 
 ## Android App
 
-![launcher](/home/alexanderdobler/tmp/kremedi/doc/launcher.png)
+![launcher](doc/launcher.png)
 
 The Android App sports a simple UI only showing the rotation in degree (or alternatively Gon, decided by a toggle at the top) as well as in radian, the third value shows the detected rotation steps. At the bottom is a button to reset the current state to 0 degrees.
 
-|                  Phone                   |                  Tablet                  |
-| :--------------------------------------: | :--------------------------------------: |
-| ![phone](/home/alexanderdobler/tmp/kremedi/doc/phone.png) | ![tablet](/home/alexanderdobler/tmp/kremedi/doc/tablet.png) |
+|          Phone          |          Tablet           |
+| :---------------------: | :-----------------------: |
+| ![phone](doc/phone.png) | ![tablet](doc/tablet.png) |
 
 The app connects to an Arduino using a serial connection over USB. For this there is a "Establish Connection" button at the top.
 

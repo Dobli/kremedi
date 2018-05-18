@@ -2,7 +2,7 @@
 
 ## Winkelkodierer
 Der Winkelkodierer ist ein Gerät welches Rotationen erkennt und über zwei Signale kodiert ausgibt.
-![Bild eines Winkelkodierers](dIMG_20160727_105834.jpg)
+![Bild eines Winkelkodierers](IMG_20160727_105834.jpg)
 Der Winkelkodierer hat vier Kabelenden die wie folgt belegt sind:
 
 | Kabelfarbe | Belegung |

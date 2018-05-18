@@ -1,5 +1,7 @@
 # Arduino Angle Encoder with Android UI
 
+*A german version of this README can be found [here](doc/README_de.md).*
+
 ## Angle encoder
 
 The angle encoder is a device which detects rotation movement and outputs it encoded with two signals.

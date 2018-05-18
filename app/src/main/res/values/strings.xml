@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Angle decode</string>
+    <string name="txt_btn_start">Establish connection</string>
+    <string name="reset">Reset</string>
+</resources>

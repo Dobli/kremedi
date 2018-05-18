@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Angle decode</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="txt_btn_start">Verbindung herstellen</string>
+</resources>

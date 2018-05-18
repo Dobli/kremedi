@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.hft_stuttgart.fkc.arduinotest.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn_start"
+        android:id="@+id/btn_start"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/ll_degrees"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/tv_degree"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="°"
+            android:id="@+id/tv_baseUnit"
+            android:paddingEnd="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/tv_minutes"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="′"
+            android:id="@+id/tv_firstSubUnit"
+            android:paddingEnd="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/tv_seconds"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="″"
+            android:id="@+id/tv_secondSubUnit"
+            android:textColor="@color/hftRed"
+            android:textStyle="bold"
+            android:textSize="@dimen/angle_text_big"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_radiant"
+        android:text="0"
+        android:textColor="@color/hftRedDarker"
+        android:layout_below="@+id/ll_degrees"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/angle_text_small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="#"
+        android:textColor="@color/hftRedDarker"
+        android:id="@+id/tv_counter"
+        android:layout_below="@+id/tv_radiant"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/angle_text_small" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:id="@+id/btn_reset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gon"
+        android:id="@+id/sw_unit"
+        android:checked="false"
+        android:layout_below="@+id/btn_start"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
